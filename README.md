@@ -39,8 +39,7 @@ From the data set in step 4, creates a second, independent tidy data set with th
 
 Good luck!
 
-FILES 
-Projetct.R : unzip datas 
-tidydta.R : code to generate tidyData.txt 
-TidyData.txt : text format of tidy data 
+The code is in the run_analysis.R file, the zip file wasalready unzipped. It created a UCI HAR DATASET which contains train datas and test datas. 
+
+First, I read both datas, and then I merged them. Then I extracted the variables referred to mean or standard deviation. Then I analysed datas. The final part is dedicated on created the txt file. 
 
